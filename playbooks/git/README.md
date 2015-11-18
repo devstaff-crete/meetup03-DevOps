@@ -1,24 +1,7 @@
-# Meetup 03 - DevOps: from concept to movement to implementation
+git
+=====
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/devstaff-crete/meetup03-DevOps#?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-## Material - playbooks
-
-1. playbook initialise
-2. playbokk python pre reqs
-3. playbook git
-4. playbook directory structure
-5. playbook nginx
-
-# how to run
-
-Best way to start is to alter the hosts file included, by using the ip of your server
-
-### How to run a playbook
-
-```
-$ ansible-playbook initialise/initialise.yml -i hosts  --extra-vars "target=test"
-```
+This playbook installs git 
 
 ## Contributing
 
@@ -55,4 +38,3 @@ Please submit all pull requests against the master branch. Thanks!
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-
